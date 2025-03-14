@@ -1,7 +1,7 @@
 # Blockchain Payment Gateway
 Blockchain-based Payment Gateway that enables seamless Ethereum transactions using MetaMask, Hardhat, and Alchemy. The frontend is built with React, and interactions with the smart contract are handled using ethers.js.
 
-## 🚀 Features
+## Features
 
 - MetaMask Integration: Secure authentication and transaction handling
 
@@ -15,7 +15,7 @@ Blockchain-based Payment Gateway that enables seamless Ethereum transactions usi
 
 - ethers.js for Web3 Interactions: Seamless smart contract interaction
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** React
 
@@ -29,24 +29,32 @@ Blockchain-based Payment Gateway that enables seamless Ethereum transactions usi
 
 - **Web3 Interaction:** ethers.js
 
-## 📜 Smart Contract
+## Smart Contract
 
 The smart contract is written in Solidity and deployed on the Ethereum network. It facilitates sending and receiving ETH payments securely.
 
-## 🔧 Setup and Installation
+## Setup and Installation
 
 1. Clone the Repository**
    ```bash
    https://github.com/Applikatla/XNL-21BCE9852-SDE-1
    
-2. Change directory
+2. Change Directory (front end)
    ```bash
    cd client   
-2. Install Dependencies
+3. Install Dependencies
     ```bash
    npm install
-
-3. Configure Environment Variables Create a .env file in the root directory with your Alchemy API key:
+4. Change Directory (Backend)
+   ```bash
+   cd server/
+5. Install Dependencies
+   ```bash
+   npm install
+6. Change Directory
+   ```bash
+   cd merkle_server
+7. Configure Environment Variables Create a .env file in the root directory with your Alchemy API key:
      ```bash
    API_KEY=your-alchemy-api-key
 
