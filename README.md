@@ -3,31 +3,31 @@ Blockchain-based Payment Gateway that enables seamless Ethereum transactions usi
 
 ## 🚀 Features
 
--- MetaMask Integration: Secure authentication and transaction handling
+- MetaMask Integration: Secure authentication and transaction handling
 
--- Solidity Smart Contracts: Custom contracts for Ethereum transactions
+- Solidity Smart Contracts: Custom contracts for Ethereum transactions
 
--- Hardhat Deployment: Efficient smart contract compilation and deployment
+- Hardhat Deployment: Efficient smart contract compilation and deployment
 
--- Alchemy as RPC Provider: Reliable blockchain interaction
+- Alchemy as RPC Provider: Reliable blockchain interaction
 
--- React Frontend: User-friendly UI for transaction execution
+- React Frontend: User-friendly UI for transaction execution
 
--- ethers.js for Web3 Interactions: Seamless smart contract interaction
+- ethers.js for Web3 Interactions: Seamless smart contract interaction
 
 ## 🛠 Tech Stack
 
--- **Frontend:** React
+- **Frontend:** React
 
--- **Smart Contracts:** Solidity
+- **Smart Contracts:** Solidity
 
--- **Blockchain Network:** Ethereum
+- **Blockchain Network:** Ethereum
 
--- **Development & Deployment:** Hardhat, Alchemy
+- **Development & Deployment:** Hardhat, Alchemy
 
--- **Wallet Integration:** MetaMask
+- **Wallet Integration:** MetaMask
 
--- **Web3 Interaction:** ethers.js
+- **Web3 Interaction:** ethers.js
 
 ## 📜 Smart Contract
 
