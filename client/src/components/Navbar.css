@@ -1,0 +1,16 @@
+.active {
+    background-color: blue;
+}
+
+nav ul li a {
+    border-radius: 50%;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
+
+.back {
+    background-color: black;
+}
