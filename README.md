@@ -78,21 +78,6 @@ This project verifies the inclusion of a specific transaction from a blockchain 
 - **Alchemy API Key** for blockchain data
 
 ---
-
-## Setup
-
-1. Clone the Repository**
-   ```bash
-   https://github.com/Applikatla/merkle_tree_verification.git
-   
-2. Install Dependencies
-    ```bash
-   npm install
-
-3. Configure Environment Variables Create a .env file in the root directory with your Alchemy API key:
-     ```bash
-   API_KEY=your-alchemy-api-key
----
 ## Backend
 
 ### Code Overview
