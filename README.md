@@ -57,6 +57,14 @@ The smart contract is written in Solidity and deployed on the Ethereum network. 
 7. Configure Environment Variables Create a .env file in the root directory with your Alchemy API key:
      ```bash
    API_KEY=your-alchemy-api-key
+8. Run your Frontend react server
+   ```bash
+   npm run dev
+9. Run your server for auth
+    ```bash
+    cd server
+    npm start
+10. Follow Merkle Proof Verification to start merkle sever
 
 # Merkle Proof Verification for Blockchain Transactions
 
