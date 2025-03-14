@@ -1,3 +1,55 @@
+# Blockchain Payment Gateway
+Blockchain-based Payment Gateway that enables seamless Ethereum transactions using MetaMask, Hardhat, and Alchemy. The frontend is built with React, and interactions with the smart contract are handled using ethers.js.
+
+## 🚀 Features
+
+-- MetaMask Integration: Secure authentication and transaction handling
+
+-- Solidity Smart Contracts: Custom contracts for Ethereum transactions
+
+-- Hardhat Deployment: Efficient smart contract compilation and deployment
+
+-- Alchemy as RPC Provider: Reliable blockchain interaction
+
+-- React Frontend: User-friendly UI for transaction execution
+
+-- ethers.js for Web3 Interactions: Seamless smart contract interaction
+
+## 🛠 Tech Stack
+
+-- **Frontend:** React
+
+-- **Smart Contracts:** Solidity
+
+-- **Blockchain Network:** Ethereum
+
+-- **Development & Deployment:** Hardhat, Alchemy
+
+-- **Wallet Integration:** MetaMask
+
+-- **Web3 Interaction:** ethers.js
+
+## 📜 Smart Contract
+
+The smart contract is written in Solidity and deployed on the Ethereum network. It facilitates sending and receiving ETH payments securely.
+
+## 🔧 Setup and Installation
+
+1. Clone the Repository**
+   ```bash
+   https://github.com/Applikatla/XNL-21BCE9852-SDE-1
+   
+2. Change directory
+   ```bash
+   cd client   
+2. Install Dependencies
+    ```bash
+   npm install
+
+3. Configure Environment Variables Create a .env file in the root directory with your Alchemy API key:
+     ```bash
+   API_KEY=your-alchemy-api-key
+
 # Merkle Proof Verification for Blockchain Transactions
 
 This project verifies the inclusion of a specific transaction from a blockchain block (on Sepolia or zkSync testnet) using Merkle proofs. The backend fetches transaction data from the blockchain, constructs a Merkle tree, and generates proofs. The frontend interacts with an Ethereum smart contract to verify the transaction inclusion using these proofs.
